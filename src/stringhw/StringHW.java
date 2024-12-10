@@ -27,12 +27,12 @@ public class StringHW {
         // Using InputUtilities to prompt the user to enter a username
         userName = myInput.askUserForText("Please enter your name: ");
         
-        // Return the user name using a loop
+        // To return the user name using a loop
         for(int i = userName.length()-1; i >=0; i--) {
         result +=userName.charAt(i); // Each character should be attached in reverse order.
         
     }
-        // Show output the reversed name to the user
+        // To show output the reversed name to the user
         System.out.println("Your name read backwards is " + result);
         
     }
