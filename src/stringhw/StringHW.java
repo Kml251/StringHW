@@ -15,11 +15,11 @@ public class StringHW {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // This is a simple program for string with using InputUtilities
+        // This is a simple program for strings using InputUtilities.
         
         String userName = ""; // Variable to store the user's input name
         
-        // Creating an instance of InputUtilities to handle input operations
+        // To handle input operations, create a version of InputUtilities.
         InputUtilities myInput = new InputUtilities();
         
         String result = "";// Variable to store the reversed version of the name
@@ -27,7 +27,7 @@ public class StringHW {
         // Using InputUtilities to prompt the user to enter their name
         userName = myInput.askUserForText("Please enter your name: ");
         
-       
+        // Reverse the user's name using a loop
         for(int i = userName.length()-1; i >=0; i--) {
         result +=userName.charAt(i); // Each character should be attached in reverse order.
         
