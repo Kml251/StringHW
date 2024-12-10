@@ -23,7 +23,8 @@ public class StringHW {
         InputUtilities myInput = new InputUtilities();
         
         String result = "";// Variable to store the reversed version of the name
-       
+        
+        // Using InputUtilities to prompt the user to enter their name
         userName = myInput.askUserForText("Please enter your name: ");
         
        
