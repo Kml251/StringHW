@@ -43,7 +43,7 @@ public class StringHW {
         AllUpper = userName.toUpperCase(); //Making user's name all capital
         
         //To print user's name with Upper charecters
-        System.out.println("Your name is: " + AllUpper);
+        System.out.println("Your name is: " + AllUpper +"with all capitals");
         
         
     }
